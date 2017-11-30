@@ -20,4 +20,4 @@ Setup Instructions for running the application
       private static final String USERNAME = "your_username"; <br />
       private static final String PASSWORD = "your_password"; <br />
    </strong>   
- 
+ <hr />
