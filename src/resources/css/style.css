@@ -1,0 +1,49 @@
+/* Navigation links */
+.navigation-hyperlink {
+    -fx-text-fill: white;
+    -fx-border-color: #888;
+    -fx-border-width: 1 0 0 0;
+}
+
+.navigation-hyperlink:visited {
+    -fx-text-fill: white;
+    -fx-border-style: none;
+    -fx-underline: false;
+}
+
+.navigation-hyperlink:hover {
+    -fx-underline: false;
+    -fx-text-fill: white;
+    -fx-background-color: #555;
+}
+
+.navigation-hyperlink:focused {
+    -fx-underline: false;
+    -fx-background-color: #4286f4;
+}
+
+/* Button rules */
+.my-button {
+    -fx-text-fill: white;
+    -fx-background-color: #4286f4;
+    -fx-background-radius: 0;
+    -fx-pref-width: 120;
+    -fx-pref-height: 30;
+}
+
+.my-button:hover {
+    -fx-background-color: #6ba3ff;
+}
+
+/* Library tiles */
+.library-tiles {
+    -fx-underline: false;
+    -fx-text-fill: black;
+    -fx-padding: 8;
+}
+
+.library-tiles:hover {
+    -fx-underline: false;
+    -fx-text-fill: white;
+    -fx-background-color: #6ba3ff;
+}
