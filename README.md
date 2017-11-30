@@ -8,17 +8,16 @@ Setup Instructions for running the application
 3. Download the <a href="https://github.com/chrislaskos/GameStore/blob/master/GameStoreProject.zip">project</a> of the application and open it in <strong>NetBeans</strong>.
 4. Connect with the database in the Services tab under <strong>MySQL Server(localhost)</strong>. The MySQL <strong>JDBC driver</strong> is embedded in the project.
 5. Enter your server properties(Host Name, Port Number, Admin UserName/Password).
-6. Modify the code in the following files: <br />
+6. Modify the <strong>3 lines</strong> of code in the following files: <br />
    <a href="https://github.com/chrislaskos/GameStore/blob/master/src/gamestore/AccountController.java">AccountController.java</a> <br />
    <a href="https://github.com/chrislaskos/GameStore/blob/master/src/gamestore/CheckoutController.java">CheckoutController.java</a> <br />
    <a href="https://github.com/chrislaskos/GameStore/blob/master/src/gamestore/LibraryController.java">LibraryController.java</a> <br />
    <a href="https://github.com/chrislaskos/GameStore/blob/master/src/gamestore/model/CustomerQueries.java">CustomerQueries.java</a> <br />
    <a href="https://github.com/chrislaskos/GameStore/blob/master/src/gamestore/model/ProductQueries.java">ProductQueries.java</a> <br /> 
-   to match your server properties <br />
-<code>
+   to match your server properties <br /> <hr />
    <strong>
-      private static final String DATABASE_URL = "your_database_url";
-      private static final String USERNAME = "your_username"; 
-      private static final String PASSWORD = "your_password"; 
+      private static final String DATABASE_URL = "your_database_url"; <br />
+      private static final String USERNAME = "your_username"; <br />
+      private static final String PASSWORD = "your_password"; <br />
    </strong>   
-</code> 
+ 
