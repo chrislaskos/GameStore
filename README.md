@@ -10,8 +10,8 @@ Setup Instructions for running the application
 5. Connect with the database in the Services tab under MySQL Server(localhost). The MySQL JDBC driver is embedded in the project.
 6. Enter your server properties(Host Name, Port Number, Admin UserName/Password).
 7. Alter the code in the followning files where the Strings DATABASE_URL, USERNAME, PASSWORD are your server properties: <br />
-   <a href="#">AccountController.java</a> <br />
-   <a href="#">CheckoutController.java</a> <br />
-   <a href="#">LibraryController.java</a> <br />
+   <a href="https://github.com/chrislaskos/GameStore/blob/master/src/gamestore/AccountController.java">AccountController.java</a> <br />
+   <a href="https://github.com/chrislaskos/GameStore/blob/master/src/gamestore/CheckoutController.java">CheckoutController.java</a> <br />
+   <a href="https://github.com/chrislaskos/GameStore/blob/master/src/gamestore/LibraryController.java">LibraryController.java</a> <br />
    <a href="#">CustomerQueries.java</a> <br />
    <a href="#">ProductQueries.java</a> <br /> 
