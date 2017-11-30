@@ -15,7 +15,7 @@ Setup Instructions for running the application
    <a href="https://github.com/chrislaskos/GameStore/blob/master/src/gamestore/LibraryController.java">LibraryController.java</a> <br />
    <a href="https://github.com/chrislaskos/GameStore/blob/master/src/gamestore/model/CustomerQueries.java">CustomerQueries.java</a> <br />
    <a href="https://github.com/chrislaskos/GameStore/blob/master/src/gamestore/model/ProductQueries.java">ProductQueries.java</a> <br /> 
-   to match your <strong>server properties</strong> like this<br />
+   to match your <strong>server properties</strong> like this:<br />
 <hr />
    <strong>
       private static final String DATABASE_URL = "your_database_url"; <br />
@@ -26,4 +26,4 @@ Setup Instructions for running the application
 Steps to optionally create an executable installer for <strong>Windows</strong>: <br />
 -------------------------------------------------------------------------------- <br />
 Follow this <a href="https://netbeans.org/kb/docs/java/native_pkg.html">guide</a> to add <strong>Inno Setup</strong> to the system Path variable and to <br /> <strong>package</strong> the application in an installer for Windows. <br /><br />
-The <strong>GameStore app</strong> can also run in <strong>Linux</strong> and <strong>MacOS</strong> systems, simply by running the <strong>.jar</strong> file.
+The <strong>GameStore app</strong> can also run in <strong>Linux</strong> and <strong>MacOS</strong> systems, simply by running the <strong>.jar</strong> file. That is the power of Java!
