@@ -3,10 +3,10 @@ An e-store, cross-platform, desktop application where the user can create an acc
 
 Setup Instructions for running the application
 -----------------------------------------------
-1. Set up your XAMPP enviroment(Apache Server, phpMyAdmin).
-2. Create the gamestore_fx_db schema on the database tool, and import the database from the SQL <a href="https://github.com/chrislaskos/GameStore/blob/master/gamestore_fx_db.sql">file</a>, or copy the SQL code.
-3. Download the <a href="https://github.com/chrislaskos/GameStore/blob/master/GameStoreProject.zip">project</a> of the application and open it in NetBeans.
-4. Connect with the database in the Services tab under MySQL Server(localhost). The MySQL JDBC driver is embedded in the project.
+1. Set up your <strong>XAMPP</strong> enviroment(Apache Server, phpMyAdmin).
+2. Create the <strong>gamestore_fx_db</strong> schema on the database tool, and import the database from the SQL <a href="https://github.com/chrislaskos/GameStore/blob/master/gamestore_fx_db.sql">file</a>, or copy the SQL code.
+3. Download the <a href="https://github.com/chrislaskos/GameStore/blob/master/GameStoreProject.zip">project</a> of the application and open it in <strong>NetBeans</strong>.
+4. Connect with the database in the Services tab under MySQL Server(<strong>localhost</strong>). The MySQL JDBC driver is embedded in the project.
 5. Enter your server properties(Host Name, Port Number, Admin UserName/Password).
 6. Modify the code in the following files: <br />
    <a href="https://github.com/chrislaskos/GameStore/blob/master/src/gamestore/AccountController.java">AccountController.java</a> <br />
