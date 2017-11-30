@@ -16,7 +16,7 @@ Setup Instructions for running the application
    <a href="https://github.com/chrislaskos/GameStore/blob/master/src/gamestore/model/ProductQueries.java">ProductQueries.java</a> <br /> 
    to match your server properties <br />
 <code>
-   private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/gamespot_db?zeroDateTimeBehavior=convertToNull";
-   private static final String USERNAME = "root";
-   private static final String PASSWORD = "nbuser";
+   private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/gamespot_db?zeroDateTimeBehavior=convertToNull"; <br />
+   private static final String USERNAME = "root"; <br />
+   private static final String PASSWORD = "nbuser"; <br />
 </code> 
