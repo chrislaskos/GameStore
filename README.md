@@ -1,5 +1,6 @@
 # GameStore
-An e-store, cross-platform, desktop application where the user can create an account and purchase digital games. Developed with the NetBeans IDE 8.2 using JavaFX. The application runs locally in a XAMPP enviroment. The administration part is handled by the phpMyAdmin tool for the project's database management.
+An e-store, cross-platform, desktop application where the user can create an account and purchase digital games. Developed with the NetBeans IDE 8.2 using JavaFX. The application runs locally in a XAMPP enviroment. The administration part is handled by the phpMyAdmin tool for the project's database management. The admin can add, delete and update records in the database.
+*Note: When a new user registers and enters the first time the Game Store, an amount of 50 Euros is added to his account due to the complexity of embedding an entire banking system. This project has mostly educational nature as it was also my thesis for the Informatics Engineering department.* 
 
 Setup Instructions for running the application
 -----------------------------------------------
@@ -22,7 +23,6 @@ Setup Instructions for running the application
       private static final String PASSWORD = "your_password"; <br />
    </strong>   
 <hr />
-This project was also my thesis for the Informatics Engineering department.<br /> <br />
 Steps to optionally create an executable installer for <strong>Windows</strong>: <br />
 -------------------------------------------------------------------------------- <br />
 Follow this <a href="https://netbeans.org/kb/docs/java/native_pkg.html">guide</a> to add <strong>Inno Setup</strong> to the system Path variable and to <br /> <strong>package</strong> the application in an installer for Windows. <br /><br />
