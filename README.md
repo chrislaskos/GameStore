@@ -23,3 +23,6 @@ Setup Instructions for running the application
    </strong>   
 <hr />
 This project was also my thesis for the Informatics Engineering department.<br />
+Steps to optionally create an executable installer for <strong>Windows</strong>:
+--------------------------------------------------------------------------------
+Follow this <a href="https://netbeans.org/kb/docs/java/native_pkg.html">guide</a> to add <strong>Inno Setup</strong> to the system Path variable and to <strong>package</strong> the application in an installer for Windows.  
