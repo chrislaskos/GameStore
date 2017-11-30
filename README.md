@@ -24,6 +24,6 @@ Setup Instructions for running the application
    </strong>   
 <hr />
 Steps to <strong>optionally</strong> create an executable installer for <strong>Windows</strong>: <br />
--------------------------------------------------------------------------------- <br />
+------------------------------------------------------------------------------ <br />
 Follow this <a href="https://netbeans.org/kb/docs/java/native_pkg.html">guide</a> to add <strong>Inno Setup</strong> to the system Path variable and to <br /> <strong>package</strong> the application in an installer for Windows. <br /><br />
 The <strong>GameStore app</strong> can also run in <strong>Linux</strong> and <strong>MacOS</strong> systems, simply by running the <strong>.jar</strong> file. That is the power of Java!
