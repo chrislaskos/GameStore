@@ -14,7 +14,7 @@ Setup Instructions for running the application
    <a href="https://github.com/chrislaskos/GameStore/blob/master/src/gamestore/LibraryController.java">LibraryController.java</a> <br />
    <a href="https://github.com/chrislaskos/GameStore/blob/master/src/gamestore/model/CustomerQueries.java">CustomerQueries.java</a> <br />
    <a href="https://github.com/chrislaskos/GameStore/blob/master/src/gamestore/model/ProductQueries.java">ProductQueries.java</a> <br /> 
-   to match your server properties like this<br />
+   to match your <strong>server properties</strong> like this<br />
 <hr />
    <strong>
       private static final String DATABASE_URL = "your_database_url"; <br />
@@ -22,3 +22,4 @@ Setup Instructions for running the application
       private static final String PASSWORD = "your_password"; <br />
    </strong>   
 <hr />
+This project was also my thesis for the Informatics Engineering department.<br />
